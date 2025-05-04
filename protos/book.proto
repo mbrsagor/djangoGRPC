@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+package book;
+
+service BookService {
+    rpc CreateBook (BookRequest) returns (BookResponse);
+    rpc GetBook (BookIdRequest) returns (BookResponse);
+    rpc UpdateBook (BookRequest) returns (BookResponse);
+    rpc DeleteBook (BookIdRequest) returns (BookDeleteResponse);
+}
+
+message BookRequest {
+    int32 id = 1;
+    string title = 2;
+    string author = 3;
+    int32 published_year = 4;
+}
+
+message BookResponse {
+    int32 id = 1;
+    string title = 2;
+    string author = 3;
+    int32 published_year = 4;
+}
+
+message BookIdRequest {
+    int32 id = 1;
+}
+
+message BookDeleteResponse {
+    string message = 1;
+}

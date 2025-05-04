@@ -40,7 +40,7 @@ DEFAULT_APPS = [
 ]
 
 CUSTOM_APPS = [
-    'account'
+    'library'
 ]
 
 THIRD_PARTY_APPS = [
