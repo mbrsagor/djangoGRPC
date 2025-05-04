@@ -34,3 +34,5 @@ grpcurl -plaintext \
   -d '{ "title": "GRPC new book", "author": "Mbr Sagor", "published_year": 2025 }' \
   localhost:50051 book.BookService/CreateBook
 ```
+
+## Happy coding :wink:
