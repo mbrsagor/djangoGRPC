@@ -11,6 +11,7 @@
 - Python 3.12
 - Rest framework
 - django_grpc_framework
+- PostgreSql
 
 #### Install project locally:
 ```bash
