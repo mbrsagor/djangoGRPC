@@ -7,4 +7,4 @@ grpcio-reflection==1.71.0
 grpcio-tools==1.71.0
 protobuf==5.29.6
 setuptools==80.3.0
-sqlparse==0.5.3
+sqlparse==0.5.4
